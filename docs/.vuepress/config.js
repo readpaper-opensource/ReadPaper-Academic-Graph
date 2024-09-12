@@ -12,6 +12,7 @@ export default defineUserConfig({
     logo: './logo.png',
     repo: 'https://github.com/readpaper-opensource/ReadPaper-Academic-Graph',
     repoLabel: 'Github',
+    contributors: false,
     navbar: [
       {
         text: 'Home',
