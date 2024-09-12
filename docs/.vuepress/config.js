@@ -44,6 +44,10 @@ export default defineUserConfig({
           }
         ],
       },
+      {
+        text:"Contributors",
+        link:'/contributors.html'
+      }
     ],
   }),
 
