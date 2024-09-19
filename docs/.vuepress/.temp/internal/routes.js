@@ -2,6 +2,7 @@ export const redirects = JSON.parse("{}")
 
 export const routes = Object.fromEntries([
   ["/background.html", { loader: () => import(/* webpackChunkName: "background.html" */"E:/vuepress/vuepress-starter/docs/.vuepress/.temp/pages/background.html.js"), meta: {"title":"Background of the ReadPaper Academic Graph"} }],
+  ["/contributors.html", { loader: () => import(/* webpackChunkName: "contributors.html" */"E:/vuepress/vuepress-starter/docs/.vuepress/.temp/pages/contributors.html.js"), meta: {"title":""} }],
   ["/entity_std_ch.html", { loader: () => import(/* webpackChunkName: "entity_std_ch.html" */"E:/vuepress/vuepress-starter/docs/.vuepress/.temp/pages/entity_std_ch.html.js"), meta: {"title":"实体标准"} }],
   ["/entity_std_en.html", { loader: () => import(/* webpackChunkName: "entity_std_en.html" */"E:/vuepress/vuepress-starter/docs/.vuepress/.temp/pages/entity_std_en.html.js"), meta: {"title":"Entity Standards"} }],
   ["/get-started.html", { loader: () => import(/* webpackChunkName: "get-started.html" */"E:/vuepress/vuepress-starter/docs/.vuepress/.temp/pages/get-started.html.js"), meta: {"title":"Get Started"} }],

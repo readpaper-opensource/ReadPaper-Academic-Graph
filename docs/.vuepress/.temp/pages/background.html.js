@@ -1,5 +1,5 @@
 import comp from "E:/vuepress/vuepress-starter/docs/.vuepress/.temp/pages/background.html.vue"
-const data = JSON.parse("{\"path\":\"/background.html\",\"title\":\"Background of the ReadPaper Academic Graph\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":1725498147000,\"contributors\":[{\"name\":\"bowen xue\",\"email\":\"xuebowen@idea.edu.cn\",\"commits\":1}]},\"filePathRelative\":\"background.md\"}")
+const data = JSON.parse("{\"path\":\"/background.html\",\"title\":\"Background of the ReadPaper Academic Graph\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":1725498147000},\"filePathRelative\":\"background.md\"}")
 export { comp, data }
 
 if (import.meta.webpackHot) {

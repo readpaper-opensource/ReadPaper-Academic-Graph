@@ -30,10 +30,10 @@ Relationships between researchers, for co-authors of the same paper, can be iden
 ![com3](img/KGen_03.png)
 Relationships between scholarly sourcess, for journals and conferences in the same research field, can be identified as "Co field".
 
-![com4](img/KGen_04.png)
+![com4](img/KGen_040.png)
 Relationships between field of Study,if the fields are related, we mark the relationship as "related"
 
-![com5](img/KGen_05.png)
+![com5](img/KGen_041.png)
 if two fields have a hierarchical relationship, we use the term 'Branch of' to describe the relationship
 ## Attributes
 
@@ -51,7 +51,7 @@ Currently, there are the following attributes for these four different entities:
 | JournalIssue         | String         | The issue of the journal in which the paper appeared| "Vol. 29, No. 5"                        |
 | OriginalTextLink    | String            | Link to the original paper, adaptable for versions  | "https://www.examplejournal.org/article12345" |
 | ReadpaperReadingLink| Class            | Links to read the paper on Readpaper platform        | "https://readpaper.com/pdf-annotate/note?pdfId=1234"      |
-| CitationFormat       | String           | Various citation formats as detailed on Readpaper   | "APA, MLA, Chicago styles"              |
+| CitationFormat       | Class           | Various citation formats as detailed on Readpaper   | "APA, MLA, Chicago styles"              |
 | InclusionStatus      | String         | Status of the paper’s inclusion in databases        | "SCI, EI Indexed"                       |
 | JCR_Division          | String         | Journal Citation Reports division                   | "Q1"                                    |
 | Impact_Factor         | Float          | The impact factor of the journal                    | 7.89                                    |

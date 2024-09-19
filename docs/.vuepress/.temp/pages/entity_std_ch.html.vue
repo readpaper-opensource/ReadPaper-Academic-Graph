@@ -41,8 +41,6 @@
 研究者之间的关系，对于共同撰写同一论文的作者，我们可以确定他们有&quot;合作&quot;关系</p>
 <p><img src="@source/img/KGen_03.png" alt="com3">
 学术来源之间的关系，对于研究领域相同的期刊和会议，它们有&quot;同领域&quot;关系</p>
-<p><img src="@source/img/KGen_04.png" alt="com4">
-研究领域之间的关系，对于相关的研究领域，它们具有&quot;相关&quot;关系</p>
 <h2 id="属性" tabindex="-1"><a class="header-anchor" href="#属性"><span>属性</span></a></h2>
 <p>目前对于这五个不同的实体，有以下的属性</p>
 <h3 id="论文属性" tabindex="-1"><a class="header-anchor" href="#论文属性"><span>论文属性</span></a></h3>

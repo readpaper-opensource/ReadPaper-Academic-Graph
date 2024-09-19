@@ -41,9 +41,9 @@ Relationships between papers include &quot;cites&quot; and &quot;is cited by&quo
 Relationships between researchers, for co-authors of the same paper, can be identified as &quot;collaborators&quot;.</p>
 <p><img src="@source/img/KGen_03.png" alt="com3">
 Relationships between scholarly sourcess, for journals and conferences in the same research field, can be identified as &quot;Co field&quot;.</p>
-<p><img src="@source/img/KGen_04.png" alt="com4">
+<p><img src="@source/img/KGen_040.png" alt="com4">
 Relationships between field of Study,if the fields are related, we mark the relationship as &quot;related&quot;</p>
-<p><img src="@source/img/KGen_05.png" alt="com5">
+<p><img src="@source/img/KGen_041.png" alt="com5">
 if two fields have a hierarchical relationship, we use the term 'Branch of' to describe the relationship</p>
 <h2 id="attributes" tabindex="-1"><a class="header-anchor" href="#attributes"><span>Attributes</span></a></h2>
 <p>Currently, there are the following attributes for these four different entities:</p>
@@ -114,7 +114,7 @@ if two fields have a hierarchical relationship, we use the term 'Branch of' to d
 </tr>
 <tr>
 <td>CitationFormat</td>
-<td>String</td>
+<td>Class</td>
 <td>Various citation formats as detailed on Readpaper</td>
 <td>&quot;APA, MLA, Chicago styles&quot;</td>
 </tr>
